@@ -18,5 +18,5 @@ Feature: Login na Plataforma
     Examples:
       | usuario-invalido    | senha-invalida   | mensagem de alerta           |
       | "usuário-inválido"  | "senha-inválida" | "Usuário ou senha inválidos" |
-      | "elvin@ebac.com.br" | ""               | "Usuário ou senha inválidos" |
-      | ""                  | "123456"         | "Usuário ou senha inválidos" |
+      | "elvin@ebac.com.br" | "1234"           | "Usuário ou senha inválidos" |
+      | "elvin@ebc.com.br"  | "123456"         | "Usuário ou senha inválidos" |
