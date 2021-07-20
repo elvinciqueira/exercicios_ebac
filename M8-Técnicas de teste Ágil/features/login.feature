@@ -4,7 +4,7 @@ Feature: Login na Plataforma
   Para visualizar meus pedidos
 
   Background:
-    Given eu acesse a "Página de Login"
+    Given eu acesse a "Página de Login"*
 
   Scenario: Ao inserir dados válidos deve ser direcionado para a tela de checkout
     When eu inserir o usuário "elvin@ebac.com.br"
