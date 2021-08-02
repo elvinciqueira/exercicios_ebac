@@ -1,1 +1,1 @@
-https://github.com/elvinciqueira/exercicios_ebac
+https://github.com/elvinciqueira/exercicios_ebac/tree/main/aula-git-ebac
