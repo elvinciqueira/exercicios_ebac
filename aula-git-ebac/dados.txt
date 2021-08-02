@@ -20,5 +20,3 @@ são os vídeos que não salvam, e se eles não salvam eu não consigo avançar
 para a próxima aula, então eu preciso ficar dando refresh ou voltando o vídeo
 para ele salvar o meu progresso, isso torna a usabilidade e a experiência do aluno ruim.
 Fora isso eu gosto de como é fácil acompanhar o boletim, ver os módulos da aulas e o progresso dos cursos.
-
-Obrigado!!!
