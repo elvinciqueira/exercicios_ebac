@@ -1,1 +1,1 @@
-https://github.com/elvinciqueira/exercicios_ebac/tree/main/aula-git-ebac
+https://github.com/elvinciqueira/testing-ui-cypress/tree/master/cypress/integration
