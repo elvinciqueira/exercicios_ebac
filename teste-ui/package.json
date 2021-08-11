@@ -1,0 +1,10 @@
+{
+  "name": "teste-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "faker": "^5.5.3"
+  }
+}
