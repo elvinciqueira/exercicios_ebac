@@ -1,1 +1,1 @@
-https://github.com/elvinciqueira/exercicios_ebac/tree/main/teste-ui
+https://github.com/elvinciqueira/testes-e2e-ebac-shop/blob/main/cypress/integration/e2e.spec.js
