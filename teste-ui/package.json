@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "cy:run": "cypress run --browser chrome",
+    "cy:open": "cypress open"
+  },
   "devDependencies": {
     "cypress": "^8.2.0",
     "faker": "^5.5.3"
