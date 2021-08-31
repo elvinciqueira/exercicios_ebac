@@ -162,6 +162,15 @@
 									"    pm.response.to.have.status(201);",
 									"});",
 									"",
+									"pm.test(\"Status code é 400\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});",
+									"",
+									"pm.test(\"Email usado\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.message).to.eql(\"Este email já está sendo usado\");",
+									"});",
+									"",
 									"pm.test(\"Cadastro com sucesso\", function () {",
 									"    var jsonData = pm.response.json();",
 									"    pm.expect(jsonData.message).to.eql(\"Cadastro realizado com sucesso\");",
@@ -169,12 +178,16 @@
 									"",
 									"pm.test(\"Validar dados de entrada\", function () {",
 									"    var jsonData = pm.response.json();",
-									"    pm.expect(jsonData.nome).to.equal(\"Nome é obrigatório\");",
+									"    pm.expect(jsonData.nome).to.eql(\"nome é obrigatório\");",
+									"    pm.expect(jsonData.password).to.eql(\"password é obrigatório\");",
+									"    pm.expect(jsonData.administrador).to.eql(\"administrador é obrigatório\");",
 									"});",
 									"",
 									"pm.test(\"Tem _id\", function () {",
-									"    pm.response.to.have.body(\"_id\");",
-									"});"
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData._id).to.have.ok",
+									"});",
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -185,7 +198,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"elvin1_qa@qa.com.br\"\n}",
+							"raw": "{\n    \"nome\": \"Elvin Ciqueira\",\n    \"email\": \"elvin5_qa@qa.com.br\",\n    \"password\": \"teste\",\n    \"administrador\": \"true\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -193,13 +206,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{local}}/usuarios/wy2N1kFf5lnjsPq2",
+							"raw": "{{local}}/usuarios/2",
 							"host": [
 								"{{local}}"
 							],
 							"path": [
 								"usuarios",
-								"wy2N1kFf5lnjsPq2"
+								"2"
 							]
 						}
 					},
