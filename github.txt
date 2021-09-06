@@ -1,1 +1,1 @@
-https://github.com/elvinciqueira/testes-e2e-ebac-shop/blob/main/cypress/integration/e2e.spec.js
+https://github.com/elvinciqueira/testes-api-cy/blob/main/cypress/integration/exercicio-api.spec.js
