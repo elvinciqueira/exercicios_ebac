@@ -13,4 +13,4 @@ function multipleOf3and5(number) {
   return sum;
 }
 
-multipleOf3and5(10); // 23
+module.exports = multipleOf3and5;
