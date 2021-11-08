@@ -15,7 +15,10 @@ function maxAndMin(array) {
       minIndex = i;
     }
   }
-  return [maxIndex, minIndex];
+  return {
+    max: maxIndex,
+    min: minIndex,
+  };
 }
 
-maxAndMin([1, 2, 3, 4, 5]); // [4, 0]
+module.exports = maxAndMin;
